@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+ <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+    <script src="bootstrap.min.js"></script>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar-top">
+            <ul class="navbar-top-ul">
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">Registro</a>
+                </li>
+                <li class="navbar-top-item">
+                    <a href="login.html" class="navbar-top-links">Iniciar sesión</a>
+                </li>
+                <li class="navbar-top-item">
+                   <a href="#" precio="0" titulo=""role="button" class="zmdi zmdi-shopping-cart producto">Carrito</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar">
+            <header class="nabvar-mobile is-size-5-mobile">
+                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
+                <a class="navbar-mobile-link has-text-white" href="#">La pizza de don Cangrejo</a>
+                  <a href="#" precio="" titulo=""role="button" class="zmdi zmdi-shopping-cart producto">Carrito</a>
+            </header>
+            <nav class="nav-menu" id="mySidenav">
+                <form class="form-group " action="#">
+                    <div class="form-group-container">
+                        <span class="form-group-icon"><i class="zmdi zmdi-search"></i></span>
+                        <input type="text" class="form-group-input" placeholder="Buscar...">
+                    </div>
+                </form>
+
+                <a class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="index.html">La pizza de Don Cangrejo</a>
+                <ul class="nav-menu-ul">
+                    <li class="nav-menu-item" id="men">
+                        
+                        <div class="container-sub-menu">
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Casual</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisas Polo</a>
+                                        </li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Formal</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Trajes</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">Ofertas de Verano</h1>
+                                <h2 class="ads-h2">Desde el 50% de descuento</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-menu-item" id="women">
+                        
+                        <div class="container-sub-menu"> 
+
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item ">
+                                    <a class="nav-menu-link" href="#">
+                                        <strong>Casual</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisas Polo</a>
+                                        </li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu-ul">
+                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
+                                        <strong>Formal</strong>
+                                        <i class="zmdi zmdi-chevron-down "></i>
+                                    </a>
+                                    <ul class="sub-menu-ul">
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Trajes</a></li>
+                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="ads is-hidden-touch">
+                                <h1 class="ads-h1">Ofertas de Verano</h1>
+                                <h2 class="ads-h2">Desde el 50% de descuento</h2>
+                            </div>
+                        </div> 
+                    </li>
+                    <li class="nav-menu-item"><a href="brand.html" class="nav-menu-link">La Marca</a></li>
+                    
+                    <li class="nav-menu-item"><a href="productos.html" class="nav-menu-link">Productos</a></li>
+                    
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <div class="banner banner-cover">
+        <div class="banner-container ">
+            <h1 class="title-cover">PIZZA</h1>
+            <a href="producto-pizza.html" a class="btn btn-default">Comprar una pizza de Don Cangrejo</a>
+        </div>
+    </div>
+
+    <!-- Barra de navegacion secundaria -->
+    <div class="container">
+        <nav class="nav">
+            <a class="nav-item active has-text-weight-semibold" href="#">Popular</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Novedades</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Más vendidos</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Ofertas</a>
+            <a class="nav-item has-text-weight-semibold" href="#">Muy pronto</a>
+        </nav>
+    </div>
+    <!-- Sección de fotografías -->
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column is-full-mobile">
+                <div class="columns is-centered is-mobile is-multiline">
+                    <!-- 1 Sección de fotografías -->
+                    <div class="column is-half column-full">
+                        <div class="card">
+                            <span class="price">$99.99</span>
+                            <img src="img/banner-large.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Pizza de Don Cangrejo
+                                    La grandota $99.99 </h4>
+                                <p class="has-text-centered">La especialdad de la casa los ingredientes frezcos
+                                        1000cal.</p>
+                                <div class="card-buttons">
+                                    <a href="producto-pizza.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-full is-half">
+                        <div class="card">
+                            <span class="price">$120.50</span>
+                            <img src="img/hamburguesas-2-1024x658.png" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold">Color burgers
+                                    Color a elegir $120.50 </h4>
+                                <p class="has-text-centered">Las clasicas pero sabrosas color buergers, invento de nuestro parrillero. 1500cal.</p>
+                                <div class="card-buttons">
+                                    <a href="producto-colorburger.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-full">
+                        <div class="card">
+                            <span class="price">$55.95</span>
+                            
+                                <img src="img/maxresdefault.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Deliciosa malteada de algas $55.95 </h4>
+                                <p class="has-text-centered">Malteada de algas una delicia para su paladar y a demas pocas calorias. 50cal</p>
+                                <div class="card-buttons">
+                                    <a href="producto-malteada.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Segunda sección de fotografías -->
+            <div class="column is-half is-full-mobile">
+                <div class="columns is-mobile is-multiline">
+                    <div class="column is-full">
+                        <div class="card">
+                            <span class="price"><strike>$107</strike> $89.99</span>
+                                <img src="img/Krusty_Dogs_title_card.png" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Krusty Dog Oferta $89.99 </h4>
+                                <p class="has-text-centered">Delicioso dogo estilo Fondo de Bikini un verdadero manjar. 2000cal .</p>
+                                <div class="card-buttons">
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    <a href="producto.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-eye"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-full is-half">
+                        <div class="card">
+                            <span class="price">$140.99</span>
+                            <img src="img/7-2.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Cangreburger Clasica $140.99 </h4>
+                                <p class="has-text-centered">La clasica cangreburger con todos los ingredientes recien cortados. 5000cal</p>
+                                <div class="card-buttons">
+                                    <a href="producto-cangreburger.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-full is-half">
+                        <div class="card">
+                            <span class="price">$64.79</span>
+                            <img src="img/Salad_Bar.jpg" alt="">
+                            <div class="card-info">
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Barra de ensaladas $64.79 </h4>
+                                <p class="has-text-centered">Barra de ensaladas de la mejor calidad, todos los vegateles organicos. 0cal</p>
+                                <div class="card-buttons">
+                                    <a href="producto-ensalada.html" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                    <a href="#" class="btn btn--mini-rounded"><i
+                                            class="zmdi zmdi-favorite-outline"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-full">
+    <div class="columns is-centered is-multiline">
+        <div class="column is-full">
+            <div class="separator"></div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop column-half">
+            <div class="card card-second">
+                <img class="card-second-image" src="img/tumblr_o462349v0e1ugbpbjo1_500.gif" alt="">
+                <div class="card-second-body --text-right">
+                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Nuestro compromiso</h1>
+                    <p class="has-text-right">Nuestro comprimiso es ofrecer los mejores alimentos a todos nuestros comensales
+                    </p>
+                    <div>
+                        
+                    </div>
+                    </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop column-half">
+            <div class="card card-second">
+                <img class="card-second-image" src="img/images.jfif" alt="">
+                <div class="card-second-body --text-right">
+                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Estandares de calidad</h1>
+                    <p class="has-text-right">     Contamos con los mayores estanderes de calidad para todos nuestros clientes
+                    </p>
+                    <div>
+                        <a href="#" class="btn btn-default is-size-7">Ver ahora</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="column is-half-tablet is-one-third-desktop">
+            <div class="card card-second">
+                <img class="card-second-image" src="img/calamrdo.jpg" alt="">
+                <div class="card-second-body --text-right">
+                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Empleados</h1>
+                    <p class="has-text-right">                Nuestro establecimiento 
+                    cuenta con el personal mejor capacitado
+                        
+                    </p>
+                    <div>
+                        <a href="#" class="btn btn-default is-size-7">Ver ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column">
+                    <ul class="footer-ul">
+                        <li class="footer-item">
+                            <h3 class="has-text-weight-
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="column">
+                   
+                    </ul>
+                </div>
+                <div class="column">
+                    
+                    </ul>
+                </div>
+                
+                    </ul>
+                </div>
+                <div class="column">
+
+                    
+                    </ul>
+                </div>
+                <div class="column is-full">
+                    <div class="footer-socials">
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-facebook"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-twitter"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-instagram"></i></a>
+                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar-top">
+            <div class="container">
+                <a class="footer-bar-top-links" href="#">2021 La pizza de Don Cangrejo</a>
+            </div>
+        </div>
+    </footer>
+   <script src="minicart.js"></script>
+	<script>
+	  // configuración inicial del carrito 
+	  paypal.minicart.render({
+	  strings:{
+	    button:'Pagar'
+	   ,buttonAlt: "Total"
+	   ,subtotal: 'Total:'
+	   ,empty: 'No hay productos en el carrito'
+	  }
+	  });
+	  // Eventos para agregar productos al carrito
+	  
+	   $('.producto').click(function(e){
+	       e.stopPropagation();
+		    paypal.minicart.cart.add({
+			business: 'uhperezoscar@gmail.com', // Cuenta paypal para recibir el dinero
+			item_name: $(this).attr("titulo"),
+			 amount: $(this).attr("precio"),
+			 currency_code: 'USD',
+			
+			});
+	   });
+	  
+	</script>
+
+
+</body>
+
+</html>
